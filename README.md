@@ -2,6 +2,8 @@
 
 A [Claude Code](https://claude.com/claude-code) / Claude Agent skill that turns Walt Disney's famous three-room creative process — one room for dreaming, one for planning, one for criticizing, never mixed — into a structured multi-agent ideation workflow.
 
+> Creative idea generation and refinement using Walt Disney's three-mode thinking method — Dreamer (100 unconstrained ideas), Critic (ruthless evaluation with TRL and show-stopper taxonomy), Realist (researched implementation plans for the top 3). Use this skill whenever the user wants to brainstorm, ideate, generate creative options, explore solutions, or find innovative approaches to a problem. Trigger on phrases like 'brainstorm', 'ideate', 'I need ideas for', 'how could we approach', 'give me options for', 'creative ways to', 'Disney method', 'Walt Disney thinking', 'come up with ideas', 'explore approaches', 'придумай ідеї', 'мозковий штурм', 'брейншторм', 'як вирішити' — or whenever the user describes a challenge and wants explored options rather than one direct answer. Especially trigger when the user wants both creative breadth AND practical evaluation/refinement — not just a quick list and not just analysis of a single option.
+
 ## What it does
 
 Given a problem or challenge, the skill runs a strict pipeline:
