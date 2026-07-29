@@ -1,8 +1,6 @@
 # Disney Creative Ideation
 
-A [Claude Code](https://claude.com/claude-code) / Claude Agent skill that turns Walt Disney's famous three-room creative process — one room for dreaming, one for planning, one for criticizing, never mixed — into a structured multi-agent ideation workflow.
-
-> Creative idea generation and refinement using Walt Disney's three-mode thinking method — Dreamer (100 unconstrained ideas), Critic (ruthless evaluation with TRL and show-stopper taxonomy), Realist (researched implementation plans for the top 3). Use this skill whenever the user wants to brainstorm, ideate, generate creative options, explore solutions, or find innovative approaches to a problem. Trigger on phrases like 'brainstorm', 'ideate', 'I need ideas for', 'how could we approach', 'give me options for', 'creative ways to', 'Disney method', 'Walt Disney thinking', 'come up with ideas', 'explore approaches', 'придумай ідеї', 'мозковий штурм', 'брейншторм', 'як вирішити' — or whenever the user describes a challenge and wants explored options rather than one direct answer. Especially trigger when the user wants both creative breadth AND practical evaluation/refinement — not just a quick list and not just analysis of a single option.
+A [Claude Code](https://claude.com/claude-code) / Claude Agent skill for creative idea generation and refinement, built on Walt Disney's famous three-room method — one room for dreaming, one for planning, one for criticizing, never mixed. It turns that discipline into a structured multi-agent workflow: a **Dreamer** that generates 100 unconstrained ideas, a **Critic** that ruthlessly evaluates each one against a real rubric (technology-readiness levels, a show-stopper taxonomy), and a **Realist** that produces a researched implementation plan for the top 3.
 
 ## What it does
 
@@ -19,7 +17,9 @@ The architecture is parallel-by-default (5 Critics + 3 Realists run concurrently
 
 ## When to use it
 
-Trigger it whenever you want to brainstorm, ideate, or explore creative options rather than get one direct answer — especially when you want both creative *breadth* (unconstrained ideas) and practical *evaluation/refinement* (which ones actually survive contact with reality).
+Reach for it whenever you want a challenge *explored* rather than answered with a single suggestion — brainstorming, ideating, or looking for innovative approaches to a problem. It's especially suited to requests that need both creative *breadth* (a wide, unconstrained set of options) and practical *evaluation/refinement* (which of those options actually survive contact with reality) — not just a quick list, and not just an analysis of one option in isolation.
+
+In an agent setup, this maps to prompts like "brainstorm", "I need ideas for...", "how could we approach...", "give me options for...", "creative ways to...", or "explore approaches" (also recognized in Ukrainian: "придумай ідеї", "мозковий штурм", "як вирішити"). Claude picks up the skill automatically when a request matches this shape — no need to name it explicitly.
 
 ## Contents
 
